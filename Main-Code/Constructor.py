@@ -1,4 +1,4 @@
-import calss node
+
 
 root = Node("animal", 100)
 

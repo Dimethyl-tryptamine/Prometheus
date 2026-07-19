@@ -1,1 +1,2 @@
-Research.md
+my-folder/*
+!my-folder/.gitkeep
