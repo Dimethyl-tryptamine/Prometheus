@@ -17,18 +17,46 @@ for the current leader board 7/13/2026 claude is ontop so ill stick with that
 
 
 
----
+## When will the model change a node?  (very input causes a node change)  Sensitivity ∝ 1 / complexity
+- Prediction error (difference between expected and observed outcome)
+- High usage (how often the node is activated)
+- Depth (deeper nodes are more specific and easier to modify)
 
-## When Will the Model Change
+Few nodes:
+    high sensitivity
+    fast learning
+    less stable
 
----
+Many nodes:
+    low sensitivity
+    slower learning
+    more stable
 
-## How Will the Model Change
+## How will the model change a node?
+- Split nodes
+- Merge nodes
+- Adjust node values
+- Create new nodes
+- Move nodes
 
----
 
-## How Will the Model Know When to Change -- priority 
+## Node Change Priority
+1. Depth
+   - Determines node stability and change sensitivity
 
----
+2. Change trigger
+   - Determines when modification is allowed
 
-## How Will the Model Know That a Change Made Itself Better --priority
+3. Modification tools
+   - Algorithms attached to node constructors
+
+4. Optimization
+   - Learns which modification tool produces the best results
+
+
+## How will the model know a change improved itself?
+- Create evaluation score based on node history and data
+- Save previous tree state
+- Compare before and after states
+- Revert unsuccessful changes
+

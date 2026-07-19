@@ -1,5 +1,5 @@
 
-
+from Research.node import Node
 root = Node("animal", 100)
 
 dog = Node("dog", 40, root)
